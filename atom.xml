@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <author>
+    <name>Butterfly bush</name>
+  </author>
+  <generator uri="https://hexo.io/">Hexo</generator>
+  <id>http://example.com/</id>
+  <link href="http://example.com/" rel="alternate"/>
+  <link href="http://example.com/atom.xml" rel="self"/>
+  <rights>All rights reserved 2026, Butterfly bush</rights>
+  <subtitle>混乱的杂物堆</subtitle>
+  <title>醉鱼草</title>
+  <updated>2026-03-30T12:18:31.704Z</updated>
+  <entry>
+    <author>
+      <name>Butterfly bush</name>
+    </author>
+    <content>
+      <![CDATA[<p>布局暂时先这样吧</p><span id="more"></span><p>正文部分。</p><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><p>正文部分。</p><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><p>没了。</p>]]>
+    </content>
+    <id>http://example.com/2026/03/30/%E5%8F%AA%E6%98%AF%E6%B5%8B%E8%AF%95/</id>
+    <link href="http://example.com/2026/03/30/%E5%8F%AA%E6%98%AF%E6%B5%8B%E8%AF%95/"/>
+    <published>2026-03-30T12:02:24.000Z</published>
+    <summary>无</summary>
+    <title>只是测试</title>
+    <updated>2026-03-30T12:18:31.704Z</updated>
+  </entry>
+</feed>

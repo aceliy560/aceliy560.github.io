@@ -1,4 +1,11 @@
-http://example.com/subscribe/index.html
-http://example.com/about/index.html
 http://example.com/2026/03/30/%E5%8F%AA%E6%98%AF%E6%B5%8B%E8%AF%95/
+http://example.com/about/index.html
+http://example.com/tags/index.html
+http://example.com/categories/index.html
+http://example.com/subscribe/index.html
 http://example.com/
+http://example.com/tags/%E6%9D%82/
+http://example.com/tags/%E8%AE%B0%E5%BD%95/
+http://example.com/tags/%E8%A3%85%E6%9C%BA/
+http://example.com/categories/%E6%97%A5%E8%AE%B0/
+http://example.com/categories/%E6%97%A5%E8%AE%B0/%E6%9D%82%E8%B0%88/

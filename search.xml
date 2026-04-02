@@ -4,16 +4,43 @@
   
     
     <entry>
+      <title>Windows的Claude code配置</title>
+      <link href="/2026/04/02/Windows%E7%9A%84Claude%20code%E9%85%8D%E7%BD%AE/"/>
+      <url>/2026/04/02/Windows%E7%9A%84Claude%20code%E9%85%8D%E7%BD%AE/</url>
+      
+        <content type="html"><![CDATA[<p>Win+R输入cmd启动命令行：</p><pre class="line-numbers language-none"><code class="language-none">npm install -g @anthropic-ai&#x2F;claude-code<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>验证版本，成功会显示版本号：</p><pre class="line-numbers language-none"><code class="language-none">claude --version<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>输入：</p><pre class="line-numbers language-none"><code class="language-none">claude<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>一般会有错误：</p><pre class="line-numbers language-none"><code class="language-none">Unable to connect to Anthropic services    Failed to connect to api.anthropic.com: ERR_BAD_REQUEST    Note: Claude Code might not be available in your country.<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre><p>没挂全局代理导致的。</p><p>解决方法参考：<br><a href="https://gist.github.com/docularxu/db0053008b9f41328f29d39ffcf7c2b2?permalink_comment_id=6014130">https://gist.github.com/docularxu/db0053008b9f41328f29d39ffcf7c2b2?permalink_comment_id=6014130</a></p><p><a href="https://www.cnblogs.com/wzzkaifa/p/19079594">https://www.cnblogs.com/wzzkaifa/p/19079594</a></p><p>用Clash Verge，检查端口设置，我的是7897，然后在命令行：</p><pre class="line-numbers language-none"><code class="language-none">set http_proxy&#x3D;http:&#x2F;&#x2F;127.0.0.1:7897<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>现在可以进入Claude了，会显示：</p><pre class="line-numbers language-none"><code class="language-none">Welcome to Claude Code v2.1.89    Let&#39;s get started.<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre><p><img src="/images/claude.png" alt="claude界面"></p><p>先让你选择theme，然后就会启动浏览器让你登录Claude账号，进入Claude console。<br>这里应该是让你认证账户。</p><p>我选择获取deepseekAPI，用下面的平台登录，在API keys里创建就好了：<br><a href="https://platform.deepseek.com/">https://platform.deepseek.com</a></p><p>需要永久配置的话，在系统变量里新建变量：<br>ANTHROPIC_BASE_URL&#x3D;<a href="https://api.deepseek.com/anthropic">https://api.deepseek.com/anthropic</a><br>ANTHROPIC_AUTH_TOKEN&#x3D;”自己的API密钥”<br>ANTHROPIC_MODEL&#x3D;deepseek-chat<br>ANTHROPIC_SMALL_FAST_MODEL&#x3D;deepseek-chat</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 代码 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 杂 </tag>
+            
+            <tag> 记录 </tag>
+            
+            <tag> Claude </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>去年劳动节的装机总结</title>
-      <link href="/2026/03/30/%E5%8F%AA%E6%98%AF%E6%B5%8B%E8%AF%95/"/>
-      <url>/2026/03/30/%E5%8F%AA%E6%98%AF%E6%B5%8B%E8%AF%95/</url>
+      <link href="/2026/03/30/%E5%8E%BB%E5%B9%B4%E5%8A%B3%E5%8A%A8%E8%8A%82%E7%9A%84%E8%A3%85%E6%9C%BA%E6%80%BB%E7%BB%93/"/>
+      <url>/2026/03/30/%E5%8E%BB%E5%B9%B4%E5%8A%B3%E5%8A%A8%E8%8A%82%E7%9A%84%E8%A3%85%E6%9C%BA%E6%80%BB%E7%BB%93/</url>
       
         <content type="html"><![CDATA[<h1 id="起因"><a href="#起因" class="headerlink" title="起因"></a>起因</h1><p>博主的轻薄本过于脆弱，运行个MATLAB就烫得可以煎蛋了。只能在购买游戏本还是台式机中抉择，鉴于办公室马上要装修好了，决定还是装个性价比高的台式机。</p><span id="more"></span><p>大前提：博主是一个贫穷的脱产者。</p><p>另外，装机的主要原因也不是跑实验，而是想玩博德之门3和守望先锋……</p><h1 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h1><h2 id="显卡"><a href="#显卡" class="headerlink" title="显卡"></a>显卡</h2><p>最烧钱的显卡，在财力不足同时新手不敢用A卡的情况下就选了个丐版4060，京东2300。</p><h2 id="CPU-主板"><a href="#CPU-主板" class="headerlink" title="CPU+主板"></a>CPU+主板</h2><p>捆绑销售的i5-12600KF跟微星PRO B760M-A WIFI DDR4Ⅱ，京东2000。</p><h2 id="内存"><a href="#内存" class="headerlink" title="内存"></a>内存</h2><p>金百达银爵海力士32G DDR4 3600*2，天猫340，所有人都推荐这个。</p><h2 id="硬盘"><a href="#硬盘" class="headerlink" title="硬盘"></a>硬盘</h2><p>固态硬盘：西数SN580 2TB，当时是800。</p><p>机械硬盘：西数蓝盘 4TB，586京东。</p><p>（西数的网络风评很好，可那段时间同学都在避雷，因为一个两个丢失数据还恢复不了，我觉得应该是个人操作问题吧。）</p><p>还有我真的不知道最近的硬盘怎么卖这么贵，开学季都没这么夸张。今天2T的西数SN580居然高达2299，据说是大厂在疯狂囤货拉高了供应需求，不知真假。</p><h2 id="电源"><a href="#电源" class="headerlink" title="电源"></a>电源</h2><p>艾湃的全模组650MW，天猫400，我不敢买最便宜的怕爆炸，凑合用。</p><h2 id="散热"><a href="#散热" class="headerlink" title="散热"></a>散热</h2><p>利民PA120 SE 双塔六热管，拼多多130，没得说。</p><h2 id="机箱"><a href="#机箱" class="headerlink" title="机箱"></a>机箱</h2><p>先马朱雀air，京东125，我只想要一个散热好，便宜不丑的。</p><h2 id="显示器"><a href="#显示器" class="headerlink" title="显示器"></a>显示器</h2><p>AOC24寸 1K 120Hz，京东380，这买的比较随便，以后再换个好的。</p><h1 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h1><p>全部买完7K左右（还是买贵了……），花了一天装机，开机。指示灯闪，没什么问题，然而最后只有屏幕点不亮，什么情况？实在搞不定，斥巨资120请个师傅来检查（难不成我自己装机的意义是浪费时间？？），结果发现是很简单的原因：显示器自带的HDMI线坏了……</p><p>师傅在此处仅起到一个装系统的作用。</p><h1 id="心得"><a href="#心得" class="headerlink" title="心得"></a>心得</h1><p>早知道买个游戏本了555</p>]]></content>
       
       
       <categories>
-          
-          <category> 日记 </category>
           
           <category> 杂谈 </category>
           
